@@ -9,5 +9,10 @@ interface User {
 
 interface TimeSet {
   user: User;
-  times: number[][]; // contains a list of intervals [start, end] which represents the times they are free
+  times: Period[];
+}
+
+interface Period {
+  date: Date;
+  timeblock: number[];
 }
