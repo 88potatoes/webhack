@@ -4,7 +4,7 @@ interface Group {
 }
 
 interface User {
-  username: String;
+  username: string;
 }
 
 interface TimeSet {
